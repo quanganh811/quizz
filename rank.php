@@ -27,10 +27,6 @@
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 }
 
-
-
-
-               
                 $sql = "SELECT * FROM list
                 ORDER BY score DESC
                 LIMIT 5";
